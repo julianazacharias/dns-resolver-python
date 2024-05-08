@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "dns-resolver-python"
+version = "0.1.0"
+description = ""
+authors = ["Juliana Zacharias <julianazacharias.dev@gmail.com>"]
+readme = "README.md"
+packages = [{include = "dns_resolver_python"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+dnspython = "^2.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
