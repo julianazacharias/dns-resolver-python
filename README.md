@@ -24,7 +24,7 @@ This will run the install script to add necessary dependencies to your system.
 
 ```bash
 
-$ python dns_enum.py < domain >
-$ python subdomain_enum.py < subdomain >
+$ python dns_enum.py <domain>
+$ python subdomain_enum.py <subdomain>
 
 ```
