@@ -17,7 +17,7 @@ try:
     domain = input('Type the domain: ')
     #domain = sys.argv[1]
 except IndexError:
-    print('Syntax error - python3 dns_enum.py domainname')
+    print('Syntax error - python3 dnsenum.py domainname')
 
 for records, name in record_types.items():
     try:

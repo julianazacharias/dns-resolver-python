@@ -12,31 +12,19 @@ This is a Python-based domain resolver tool that helps resolve domain names to t
 
 - Python 3.x installed on your system.
 
-## Run in the back-end
+### Run
 
-`poetry shell`
+```poetry shell```
 
-`poetry install`
+```poetry install```
 
 This will run the install script to add necessary dependencies to your system.
 
-### Example
+## Example
 
 ```bash
 
-$ python dns_enum_script_only.py < domain >
-$ python subdomain_enum_script_only.py < subdomain >
+$ python dns_enum.py < domain >
+$ python subdomain_enum.py < subdomain >
 
 ```
-
-## Run in the front-end
-
-start the server:
-
-```bash
-
-$ python dns_enum_server.py
-
-```
-
-Run the index.html file in the browser
